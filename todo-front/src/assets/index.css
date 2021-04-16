@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ptag {
+  margin: 0;
+}
+.container {
+  width: 25%;
+  padding: 25px;
+  background-color: #f6f7f9;
+}
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todolist {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: #bcc7e4;
+  padding: 20px 0 5px 0px;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.addButton {
+  background-color: #48919e;
+}
+
+.border {
+  border: 1px solid;
+  border-color: #bcc7e4;
+}
+
+.borderNone {
+  border: none
+}
+
+.todoListButton {
+  
+  background-color: #f17167;
+}
+.radiusleft {
+  border-radius: 5px 0 0 5px;
+}
+
+.fontSize-large {
+  font-size: large;
+}
+
+.radiusright {
+  border-radius: 0 5px 5px 0;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.radiusbutton {
+  border-radius: 5px;
+}
+
+.scroll{
+  height: 400px;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
